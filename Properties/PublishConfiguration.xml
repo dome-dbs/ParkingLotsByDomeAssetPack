@@ -1,0 +1,41 @@
+<Publish>
+  <ModId Value="" />
+  <DisplayName Value="Parking Lots By Dome" />
+  <ShortDescription Value="Parking Lots by Dome" />
+  <LongDescription>PARKING LOTS BY DOME
+
+
+This pack add small full functional parking lots of different shapes and type to the game, they can be used to help at detailing any kind of build!
+
+Snap them directly to roads or add it to your build and then connect them by invisible roads.
+
+This pack includes:
+
+3x Normal Parking Lots - for 1, 2 and 3 vehicles;
+
+3x Diagonal Parking Lots - for 1, 2 and 3 vehicles;
+
+3x Disabled Parking Lots - fpr 1, 2 and 3 vehicles;
+
+3x Invisible Parking Lots - for 1, 2 and 3 vehicles;
+
+2x Double Parking Lots - for 2 and 4 vehicles;
+
+1x Sideways Parking lot - just for 1 vehicle;
+
+4x Motorbike Parking lot - for 1, 2, 3 and 4 vehicles.
+
+KNOWN ISSUES
+
+These lots have an invisible road build in them, put them too close to each other, in any direction, may cause a malfunction. 
+If this occurs, try to change the type of connection (one lane road, one way roads or without pedestrian path). 
+If you're familiar with Gizmos - Pathfinding option, you can see if they work properly or not, functional lot will have a black arrows connection to paths, non-functional ones will have a red dot in the center.</LongDescription>
+  <Thumbnail Value="Properties/PARKINGLOTSBYDOME.png" />
+  <Tag Value="Code Mod" />
+  <ForumLink Value="" />
+  <ModVersion Value="1.0" />
+  <GameVersion Value="1.1.*" />
+  <Dependency Id="78903" />
+  <ChangeLog>Initial release</ChangeLog>
+  <ExternalLink Type="discord" Url="https://discord.gg/UkKAfRqfCn" />
+</Publish>

@@ -1,0 +1,192 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BuildingPrefab, Game",
+    "name": "Dome Motorbike Parking 02",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 6,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ObjectSubObjects, Game",
+                "name": "ObjectSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ObjectSubObjectInfo[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ObjectSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:ec8d6236e7415374f8e91c93dfbcb937",
+                            "m_Position": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": -0.4375,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "6|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 1,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "m_Object": $fstrref:"UnityGUID:ec8d6236e7415374f8e91c93dfbcb937",
+                            "m_Position": {
+                                "$type": 5,
+                                "x": 0.75,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": 6,
+                                "value": {
+                                    "$type": 7,
+                                    "x": 0,
+                                    "y": 1,
+                                    "z": 0,
+                                    "w": 0
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 6,
+                "$type": "8|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:91c63b6825e22ec4b876ce7b52994f6b",
+                "m_Priority": -84,
+                "m_Icon": "coui://customassets/ParkingLotsByDomeAssetPack/Dome Motorbike Parking 02/Dome Motorbike Parking 02.png",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 7,
+                "$type": "9|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:d4d220e637b0a2743b798fced877190d"
+            },
+            {
+                "$id": 8,
+                "$type": "10|Game.Prefabs.ParkingFacility, Game",
+                "name": "ParkingFacility",
+                "active": true,
+                "m_ComfortFactor": 0.5,
+                "m_GarageMarkerCapacity": 0
+            },
+            {
+                "$id": 9,
+                "$type": "11|Game.Prefabs.DefaultPolicies, Game",
+                "name": "DefaultPolicies",
+                "active": true,
+                "m_Policies": {
+                    "$id": 10,
+                    "$type": "12|Game.Prefabs.DefaultPolicyInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 11,
+                            "$type": "13|Game.Prefabs.DefaultPolicyInfo, Game",
+                            "m_Policy": $fstrref:"UnityGUID:dbe24f0d2264b7e44b495b6c88353b14"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 12,
+                "$type": "14|Game.Prefabs.ObjectSubNets, Game",
+                "name": "ObjectSubNets",
+                "active": true,
+                "m_InvertWhen": 0,
+                "m_SubNets": {
+                    "$id": 13,
+                    "$type": "15|Game.Prefabs.ObjectSubNetInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 14,
+                            "$type": "16|Game.Prefabs.ObjectSubNetInfo, Game",
+                            "m_NetPrefab": $fstrref:"UnityGUID:c8fefc7ffe1a8a74fadb20536baed81c",
+                            "m_BezierCurve": {
+                                "$type": "17|Colossal.Mathematics.Bezier4x3, Colossal.Mathematics",
+                                "a": {
+                                    "$type": 5,
+                                    "x": 0.156425,
+                                    "y": 0,
+                                    "z": 3.138541
+                                },
+                                "b": {
+                                    "$type": 5,
+                                    "x": 0.158075213,
+                                    "y": 0.000183105469,
+                                    "z": 3.319336
+                                },
+                                "c": {
+                                    "$type": 5,
+                                    "x": 0.159727111,
+                                    "y": -9.15527344E-05,
+                                    "z": 3.50011539
+                                },
+                                "d": {
+                                    "$type": 5,
+                                    "x": 0.161377311,
+                                    "y": 0,
+                                    "z": 3.68091035
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": "18|Unity.Mathematics.int2, Unity.Mathematics",
+                                "x": 0,
+                                "y": 1
+                            },
+                            "m_ParentMesh": {
+                                "$type": 18,
+                                "x": -1,
+                                "y": -1
+                            },
+                            "m_Upgrades": {
+                                "$id": 15,
+                                "$type": "19|Game.Prefabs.NetPieceRequirements[], Game",
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 16,
+        "$type": "20|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_Circular": true,
+    "m_AccessType": 0,
+    "m_LotWidth": 1,
+    "m_LotDepth": 1
+}
